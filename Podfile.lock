@@ -1,0 +1,575 @@
+PODS:
+  - Action (5.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - Actomaton (0.7.0):
+    - CasePaths
+  - ActomatonDebugging (0.7.0):
+    - Actomaton
+    - CustomDump
+  - ActomatonStore (0.7.0):
+    - Actomaton
+  - ActomatonUI (0.7.0):
+    - Actomaton
+    - ActomatonDebugging
+  - Adjust (4.33.3):
+    - Adjust/Core (= 4.33.3)
+  - Adjust/Core (4.33.3)
+  - Ads-Global (4.8.0.9):
+    - Ads-Global/BUAdSDK (= 4.8.0.9)
+  - Ads-Global/APM (4.8.0.9):
+    - RangersAPM-Pangle/Crash (= 3.0.2)
+    - RangersAPM-Pangle/Global (= 3.0.2)
+    - RangersAPM-Pangle/SessionTracker (= 3.0.2)
+  - Ads-Global/BUAdSDK (4.8.0.9):
+    - Ads-Global/APM
+    - Ads-Global/BURelyAdSDK
+    - Ads-Global/Dep_Accurate
+  - Ads-Global/BURelyAdSDK (4.8.0.9)
+  - Ads-Global/Dep_Accurate (4.8.0.9):
+    - BUAdSDK (= 0.1.1.3)
+    - BURelyFoundation_Global/Pangle (= 0.0.3.21)
+  - Alamofire (5.6.4)
+  - AppAuth (1.6.0):
+    - AppAuth/Core (= 1.6.0)
+    - AppAuth/ExternalUserAgent (= 1.6.0)
+  - AppAuth/Core (1.6.0)
+  - AppAuth/ExternalUserAgent (1.6.0):
+    - AppAuth/Core
+  - AWSCore (2.30.2)
+  - AWSKinesis (2.30.2):
+    - AWSCore (= 2.30.2)
+  - BUAdSDK (0.1.1.3):
+    - BUAdSDK/BUAdSDK (= 0.1.1.3)
+  - BUAdSDK/BUAdSDK (0.1.1.3)
+  - BURelyFoundation_Global/AFNetworking (0.0.3.21)
+  - BURelyFoundation_Global/Foundation (0.0.3.21):
+    - BURelyFoundation_Global/NETWork
+  - BURelyFoundation_Global/Gecko (0.0.3.21):
+    - BURelyFoundation_Global/Foundation
+  - BURelyFoundation_Global/Header (0.0.3.21)
+  - BURelyFoundation_Global/NETWork (0.0.3.21):
+    - BURelyFoundation_Global/AFNetworking
+  - BURelyFoundation_Global/Pangle (0.0.3.21):
+    - BURelyFoundation_Global/AFNetworking
+    - BURelyFoundation_Global/Foundation
+    - BURelyFoundation_Global/Gecko
+    - BURelyFoundation_Global/Header
+    - BURelyFoundation_Global/NETWork
+    - BURelyFoundation_Global/SDWebImage
+    - BURelyFoundation_Global/YYModel
+    - BURelyFoundation_Global/ZFPlayer
+    - BURelyFoundation_Global/Zip
+  - BURelyFoundation_Global/SDWebImage (0.0.3.21):
+    - BURelyFoundation_Global/Foundation
+  - BURelyFoundation_Global/YYModel (0.0.3.21)
+  - BURelyFoundation_Global/ZFPlayer (0.0.3.21):
+    - BURelyFoundation_Global/Foundation
+    - BURelyFoundation_Global/Zip
+  - BURelyFoundation_Global/Zip (0.0.3.21):
+    - BURelyFoundation_Global/Foundation
+  - CasePaths (0.8.0)
+  - CombineCocoa (0.4.0):
+    - Runtime
+  - CriteoPublisherSdk (4.5.0):
+    - CriteoPublisherSdk/Sdk (= 4.5.0)
+  - CriteoPublisherSdk/Sdk (4.5.0)
+  - CropViewController (2.6.1)
+  - CustomDump (0.3.0):
+    - XCTestDynamicOverlay
+  - DifferenceKit (1.3.0):
+    - DifferenceKit/Core (= 1.3.0)
+    - DifferenceKit/UIKitExtension (= 1.3.0)
+  - DifferenceKit/Core (1.3.0)
+  - DifferenceKit/UIKitExtension (1.3.0):
+    - DifferenceKit/Core
+  - Differentiator (5.0.0)
+  - FBAEMKit (11.2.1):
+    - FBAEMKit/AEM (= 11.2.1)
+  - FBAEMKit/AEM (11.2.1):
+    - FBSDKCoreKit_Basics (~> 11.2.1)
+  - FBAudienceNetwork (6.12.0)
+  - FBSDKCoreKit (11.2.1):
+    - FBSDKCoreKit/Core (= 11.2.1)
+  - FBSDKCoreKit/Core (11.2.1):
+    - FBAEMKit (~> 11.2.1)
+    - FBSDKCoreKit_Basics (~> 11.2.1)
+  - FBSDKCoreKit_Basics (11.2.1):
+    - FBSDKCoreKit_Basics/Basics (= 11.2.1)
+  - FBSDKCoreKit_Basics/Basics (11.2.1)
+  - FBSDKLoginKit (11.2.1):
+    - FBSDKLoginKit/Login (= 11.2.1)
+  - FBSDKLoginKit/Login (11.2.1):
+    - FBSDKCoreKit (~> 11.2.1)
+    - FBSDKCoreKit_Basics (~> 11.2.1)
+  - Firebase/Core (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.3.0)
+  - Firebase/CoreOnly (10.3.0):
+    - FirebaseCore (= 10.3.0)
+  - Firebase/Crashlytics (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 10.3.0)
+  - Firebase/Messaging (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.3.0)
+  - Firebase/RemoteConfig (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 10.3.0)
+  - FirebaseABTesting (10.5.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseAnalytics (10.3.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.3.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (10.3.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreInternal (10.5.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseCrashlytics (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (~> 2.1)
+  - FirebaseInstallations (10.5.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseRemoteConfig (10.3.0):
+    - FirebaseABTesting (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FiveAd (2.6.20230215)
+  - FiveGADAdapter (1.5.0):
+    - FiveAd (~> 2.4)
+    - Google-Mobile-Ads-SDK (>= 9.1.0)
+  - FloatingPanel (2.6.0)
+  - FluctSDK (6.22.1)
+  - Google-Mobile-Ads-SDK (9.14.0):
+    - GoogleAppMeasurement (< 11.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleAnalytics (3.21.0)
+  - GoogleAppMeasurement (10.3.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.3.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.3.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.1):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMobileAdsMediationFacebook (6.12.0.0):
+    - FBAudienceNetwork (= 6.12.0)
+    - Google-Mobile-Ads-SDK (~> 9.8)
+  - GoogleMobileAdsMediationFluct (6.20.7):
+    - FluctSDK (>= 6.12.1)
+    - Google-Mobile-Ads-SDK (>= 8.1.0)
+  - GoogleMobileAdsMediationPangle (4.8.0.9.0):
+    - Ads-Global (= 4.8.0.9)
+    - Google-Mobile-Ads-SDK (~> 9.8)
+  - GoogleSignIn (7.0.0):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (< 3.0, >= 1.3)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.1)
+  - GoogleTagManager (7.4.2):
+    - FirebaseAnalytics (< 11.0, >= 9.0)
+    - GoogleAnalytics (~> 3.20)
+  - GoogleUserMessagingPlatform (2.0.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.11.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.11.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.0)"
+  - GoogleUtilities/Reachability (7.11.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.11.0):
+    - GoogleUtilities/Logger
+  - GPUImage (0.1.7)
+  - GTMAppAuth (2.0.0):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.5)
+  - GTMSessionFetcher/Core (3.1.0)
+  - LineKit (1.4.2)
+  - lottie-ios (4.1.1)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - Nuke (11.1.1)
+  - NukeExtensions (11.1.1):
+    - Nuke
+  - NukeUI (11.1.1):
+    - Nuke
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - OneKit-Pangle/BaseKit (1.3.11)
+  - OneKit-Pangle/Database (1.3.11):
+    - OneKit-Pangle/Service
+  - OneKit-Pangle/Reachability (1.3.11):
+    - OneKit-Pangle/Service
+  - OneKit-Pangle/Service (1.3.11)
+  - Parchment (3.2.0)
+  - PromisesObjC (2.2.0)
+  - RangersAPM-Pangle/Above (3.0.2)
+  - RangersAPM-Pangle/Core (3.0.2):
+    - OneKit-Pangle/BaseKit (= 1.3.11)
+  - RangersAPM-Pangle/Crash (3.0.2):
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/HMD
+    - RangersAPM-Pangle/Public
+  - RangersAPM-Pangle/Global (3.0.2):
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/Public
+  - RangersAPM-Pangle/HMD (3.0.2):
+    - OneKit-Pangle/Database (= 1.3.11)
+    - RangersAPM-Pangle/Core
+  - RangersAPM-Pangle/Public (3.0.2):
+    - RangersAPM-Pangle/Above
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/Zyone
+    - RARegisterKit-Pangle/Core (= 0.0.7)
+  - RangersAPM-Pangle/SessionTracker (3.0.2):
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/HMD
+    - RangersAPM-Pangle/Public
+  - RangersAPM-Pangle/Zyone (3.0.2)
+  - RARegisterKit-Pangle/Core (0.0.7):
+    - OneKit-Pangle/BaseKit (= 1.3.11)
+    - OneKit-Pangle/Reachability (= 1.3.11)
+  - Realm (10.34.1):
+    - Realm/Headers (= 10.34.1)
+  - Realm/Headers (10.34.1)
+  - RealmSwift (10.34.1):
+    - Realm (= 10.34.1)
+  - Repro (5.9.4)
+  - Runtime (0.4.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxCombine (2.0.1):
+    - RxRelay (~> 6)
+    - RxSwift (~> 6)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SherlockDebugForms (0.2.1):
+    - SherlockForms
+  - SherlockForms (0.2.1):
+    - SherlockHUD
+  - SherlockHUD (0.2.1)
+  - SwiftyBeaver (1.9.6)
+  - Unio (0.11.0):
+    - RxRelay (~> 6.0)
+    - RxSwift (~> 6.0)
+  - XCTestDynamicOverlay (0.2.1)
+
+DEPENDENCIES:
+  - Action
+  - Actomaton (from `Specs/Actomaton/Actomaton.podspec`)
+  - ActomatonDebugging (from `Specs/Actomaton/ActomatonDebugging.podspec`)
+  - ActomatonStore (from `Specs/Actomaton/ActomatonStore.podspec`)
+  - ActomatonUI (from `Specs/Actomaton/ActomatonUI.podspec`)
+  - Adjust (= 4.33.3)
+  - Alamofire
+  - AWSCore
+  - AWSKinesis
+  - CasePaths (from `Specs/swift-case-paths/swift-case-paths.podspec`)
+  - CombineCocoa (from `Specs/CombineCocoa/CombineCocoa.podspec`)
+  - CriteoPublisherSdk (= 4.5.0)
+  - CropViewController
+  - CustomDump (from `Specs/swift-custom-dump/swift-custom-dump.podspec`)
+  - DifferenceKit
+  - FBSDKCoreKit (= 11.2.1)
+  - FBSDKLoginKit (= 11.2.1)
+  - Firebase/Core (= 10.3.0)
+  - Firebase/Crashlytics (= 10.3.0)
+  - Firebase/Messaging (= 10.3.0)
+  - Firebase/RemoteConfig (= 10.3.0)
+  - FiveGADAdapter
+  - FloatingPanel
+  - Google-Mobile-Ads-SDK
+  - GoogleAnalytics
+  - GoogleAppMeasurement
+  - GoogleMobileAdsMediationFacebook
+  - GoogleMobileAdsMediationFluct (= 6.20.7)
+  - GoogleMobileAdsMediationPangle (= 4.8.0.9.0)
+  - GoogleSignIn
+  - GoogleTagManager (= 7.4.2)
+  - GPUImage (= 0.1.7)
+  - LineKit (= 1.4.2)
+  - lottie-ios (= 4.1.1)
+  - Nuke (from `Specs/Nuke/Nuke.podspec`)
+  - NukeExtensions (from `Specs/Nuke/NukeExtensions.podspec`)
+  - NukeUI (from `Specs/Nuke/NukeUI.podspec`)
+  - NVActivityIndicatorView
+  - Parchment (from `Specs/Parchment/Parchment.podspec.json`)
+  - Realm (from `Specs/realm-swift/Realm.podspec`)
+  - RealmSwift (from `Specs/realm-swift/RealmSwift.podspec`)
+  - Repro
+  - Runtime (from `Specs/CombineCocoa/Runtime.podspec`)
+  - RxCocoa
+  - RxCombine
+  - RxDataSources
+  - RxSwift
+  - SherlockDebugForms (from `Specs/SherlockForms/SherlockDebugForms.podspec`)
+  - SherlockForms (from `Specs/SherlockForms/SherlockForms.podspec`)
+  - SherlockHUD (from `Specs/SherlockForms/SherlockHUD.podspec`)
+  - SwiftyBeaver
+  - Unio
+  - XCTestDynamicOverlay (from `Specs/xctest-dynamic-overlay/xctest-dynamic-overlay.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - Adjust
+    - Ads-Global
+    - Alamofire
+    - AppAuth
+    - AWSCore
+    - AWSKinesis
+    - BUAdSDK
+    - BURelyFoundation_Global
+    - CriteoPublisherSdk
+    - CropViewController
+    - DifferenceKit
+    - Differentiator
+    - FBAEMKit
+    - FBAudienceNetwork
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FirebaseRemoteConfig
+    - FiveAd
+    - FiveGADAdapter
+    - FloatingPanel
+    - FluctSDK
+    - Google-Mobile-Ads-SDK
+    - GoogleAnalytics
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMobileAdsMediationFacebook
+    - GoogleMobileAdsMediationFluct
+    - GoogleMobileAdsMediationPangle
+    - GoogleSignIn
+    - GoogleTagManager
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - GPUImage
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - LineKit
+    - lottie-ios
+    - nanopb
+    - NVActivityIndicatorView
+    - OneKit-Pangle
+    - PromisesObjC
+    - RangersAPM-Pangle
+    - RARegisterKit-Pangle
+    - Repro
+    - RxCocoa
+    - RxCombine
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SwiftyBeaver
+    - Unio
+
+EXTERNAL SOURCES:
+  Actomaton:
+    :podspec: Specs/Actomaton/Actomaton.podspec
+  ActomatonDebugging:
+    :podspec: Specs/Actomaton/ActomatonDebugging.podspec
+  ActomatonStore:
+    :podspec: Specs/Actomaton/ActomatonStore.podspec
+  ActomatonUI:
+    :podspec: Specs/Actomaton/ActomatonUI.podspec
+  CasePaths:
+    :podspec: Specs/swift-case-paths/swift-case-paths.podspec
+  CombineCocoa:
+    :podspec: Specs/CombineCocoa/CombineCocoa.podspec
+  CustomDump:
+    :podspec: Specs/swift-custom-dump/swift-custom-dump.podspec
+  Nuke:
+    :podspec: Specs/Nuke/Nuke.podspec
+  NukeExtensions:
+    :podspec: Specs/Nuke/NukeExtensions.podspec
+  NukeUI:
+    :podspec: Specs/Nuke/NukeUI.podspec
+  Parchment:
+    :podspec: Specs/Parchment/Parchment.podspec.json
+  Realm:
+    :podspec: Specs/realm-swift/Realm.podspec
+  RealmSwift:
+    :podspec: Specs/realm-swift/RealmSwift.podspec
+  Runtime:
+    :podspec: Specs/CombineCocoa/Runtime.podspec
+  SherlockDebugForms:
+    :podspec: Specs/SherlockForms/SherlockDebugForms.podspec
+  SherlockForms:
+    :podspec: Specs/SherlockForms/SherlockForms.podspec
+  SherlockHUD:
+    :podspec: Specs/SherlockForms/SherlockHUD.podspec
+  XCTestDynamicOverlay:
+    :podspec: Specs/xctest-dynamic-overlay/xctest-dynamic-overlay.podspec
+
+CHECKOUT OPTIONS:
+  CombineCocoa:
+    :commit: 7300c75ff9e072aa7fd0fccefcc88f74aae9bf56
+    :git: https://github.com/CombineCommunity/CombineCocoa.git
+  Runtime:
+    :commit: 7300c75ff9e072aa7fd0fccefcc88f74aae9bf56
+    :git: https://github.com/CombineCommunity/CombineCocoa.git
+
+SPEC CHECKSUMS:
+  Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
+  Actomaton: 7a0300295a99b60ae30ec3a177e964807ccf6692
+  ActomatonDebugging: 10b52653e2df1679f507e9bba67ab3c4a995ea37
+  ActomatonStore: 21d2555b906ccf3696d8edd8c8249b286b5d595e
+  ActomatonUI: f0bb7272f19e46bbdd47e681196a209f10c60ff1
+  Adjust: 41d0d5c031409aebe7fb1f5703ff0d3306133439
+  Ads-Global: 451ac23fc7cb35a085b1b413380fb053b6a5fb5e
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AppAuth: 8fca6b5563a5baef2c04bee27538025e4ceb2add
+  AWSCore: e15f56f30a4acf6277e4c3b4b48ee95e60564307
+  AWSKinesis: 8732854b91f36f2c9b486d4369ea936a26324147
+  BUAdSDK: 3cdff380925dd70bb18cc56fe91a0abc5229dcc9
+  BURelyFoundation_Global: b885a45c04857d13e776c6f4c738005de904597b
+  CasePaths: 6bf9e7663cb48abc1c79ff26a025695084f7b9be
+  CombineCocoa: 0e39708c1290197dde18382e1d6178ffb2b7f89d
+  CriteoPublisherSdk: 26f16f975d6c0392ee7060626268e2f2d7ed2d82
+  CropViewController: 58fb440f30dac788b129d2a1f24cffdcb102669c
+  CustomDump: ec5be8bc26b8a0ab90dd49eeec107def939458a1
+  DifferenceKit: ab185c4d7f9cef8af3fcf593e5b387fb81e999ca
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  FBAEMKit: 5de0a7aaa854eec69bb5be20795952a63d38a5f6
+  FBAudienceNetwork: e0fcc9091fced34910ed0b6da06f129db46ac9e6
+  FBSDKCoreKit: bf655f808b040ed66a72b9922911b39d703e64f4
+  FBSDKCoreKit_Basics: 73ebe3a27eb688ac5b5aa7e99f68992993042115
+  FBSDKLoginKit: 2e76831ef08d356b8f9150ea51cce865074ea304
+  Firebase: f92fc551ead69c94168d36c2b26188263860acd9
+  FirebaseABTesting: 8cb5cc4e395c8dce8a2820a6a329020ead56fe2f
+  FirebaseAnalytics: 036232b6a1e2918e5f67572417be1173576245f3
+  FirebaseCore: 988754646ab3bd4bdcb740f1bfe26b9f6c0d5f2a
+  FirebaseCoreInternal: e463f41bb935cd049505bf7e9a5bdd7dcea90df6
+  FirebaseCrashlytics: f20d956f8229010b645e534693c39e0b7843c268
+  FirebaseInstallations: 935bc4abb6f7a035cab7a0c31cb777b2be3dd254
+  FirebaseMessaging: e345b219fd15d325f0cf2fef28cb8ce00d851b3f
+  FirebaseRemoteConfig: c24f767c17b0440ee63c7e93380d599173556113
+  FiveAd: 7b99280e24a3bfc1b9b9ef5b822d82815bb3baf9
+  FiveGADAdapter: 20f417e2205596c67bb335a5603a5e2363b7200e
+  FloatingPanel: 2d4a82745948d9c66be1daf51a03e9e70c9d2a2a
+  FluctSDK: 765d014474792a8fd9374230b54e791b82735943
+  Google-Mobile-Ads-SDK: 4fe6304b771f8467d29978cb790ec1e56e646946
+  GoogleAnalytics: abbea91ce20faea66c5b2305aa040d3f9992f66a
+  GoogleAppMeasurement: c7d6fff39bf2d829587d74088d582e32d75133c3
+  GoogleDataTransport: ea169759df570f4e37bdee1623ec32a7e64e67c4
+  GoogleMobileAdsMediationFacebook: 8c64904ac98459c8819cf07de3e15d5663b3d8ec
+  GoogleMobileAdsMediationFluct: d4dde775e749b7b173dbec1d0713edfb3468ea76
+  GoogleMobileAdsMediationPangle: b892c2e63787a04263522dfebf343ae810d1a916
+  GoogleSignIn: b232380cf495a429b8095d3178a8d5855b42e842
+  GoogleTagManager: 5bf1ba6bf4a1196d7f46a49e1b41f0ef19cf9876
+  GoogleUserMessagingPlatform: 5f8b30daf181805317b6b985bb51c1ff3beca054
+  GoogleUtilities: c2bdc4cf2ce786c4d2e6b3bcfd599a25ca78f06f
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  GTMAppAuth: 99fb010047ba3973b7026e45393f51f27ab965ae
+  GTMSessionFetcher: c9e714f7eec91a55641e2bab9f45fd83a219b882
+  LineKit: 5e72d94d8dd24b9d180b4c5a6d9d409ff50a200e
+  lottie-ios: efa7224964a14f690efc7d3996e7dfebdcd3b499
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  Nuke: 38d0df997dd7e1cafc5a35b9ac85a3efbd022ebd
+  NukeExtensions: 00d6a93c7be12d0f5dd8cd7dbfc54766c37b716e
+  NukeUI: 4b525ad777f7e3d381ec0ac28b2d6fd631df6c9b
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  OneKit-Pangle: 19fc175cb04d0830594808f470751d3d2ab14318
+  Parchment: ced7cec83ba36c5d68e736221cf20c98049a8e51
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  RangersAPM-Pangle: d2cc7e3887f0febfd82a1c91de96ec831fb584d1
+  RARegisterKit-Pangle: b840cfa2b841389f88959504aaf62ce2730a18d1
+  Realm: ce636a796e940f4f79b982743d549c636b77dbb6
+  RealmSwift: a1be5f5f327cceaa605f305c8b7acee2d2e804a6
+  Repro: df375bc887a7b613be06deb81617653cc0c1c712
+  Runtime: e960b1a1b7af879a3d86dc1d3b0b7250cede1913
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxCombine: 74cd98f7bb1d908eff3758d13651917fc296adb3
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SherlockDebugForms: c4e074f1d80d7c1ef6ddfb817daebfb5e95f8e2a
+  SherlockForms: ecefe05c98d4989181cd94007258eda4e85fef33
+  SherlockHUD: 60d80f0d1dfb4f387db7489e9ff6dfbe71c218fd
+  SwiftyBeaver: c8241b4745aa269a78ca5a022532c6915e948536
+  Unio: 6e57bd33dbcf38d281b0b420f75c0eae3bef0cf3
+  XCTestDynamicOverlay: daa88db0df4e0b44ce88dc2ffe0c999c8f779bce
+
+PODFILE CHECKSUM: abd097ff7a01d8e5c7fc528b3beac17fef702552
+
+COCOAPODS: 1.11.3
